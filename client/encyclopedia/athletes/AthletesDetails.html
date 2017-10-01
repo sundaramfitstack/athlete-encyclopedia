@@ -1,0 +1,48 @@
+<template name="AthleteDetails">
+	{{# if Template.subscriptionsReady}}
+		<h1>{{athlete.first_name}} {{athlete.last_name}}</h1>
+		<table class="table table-condensed table-striped">
+			<tbody>
+				<tr>
+					<td>Absolute Strength - UB</td>
+					<td>{{athlete.absolute_strength}}</td>
+				</tr>
+				<tr>
+					<td>Relative Strength - UB</td>
+					<td>{{athlete.absolute_relative}}</td>
+				</tr>
+				<tr>
+					<td>Allometric Strength - UB</td>
+					<td>{{athlete.absolute_allometric}}</td>
+				</tr>
+				<tr>
+					<td>Power (W)</td>
+					<td>{{athlete.power}}</td>
+				</tr>
+				<tr>
+					<td>Speed (m/s)</td>
+					<td>{{athlete.speed}}</td>
+				</tr>
+				<tr>
+					<td>Acceleration (m/s^2)</td>
+					<td>{{athlete.acceleration}}</td>
+				</tr>
+				<tr>
+					<td>Agility</td>
+					<td>{{athlete.agility}}</td>
+				</tr>
+				<tr>
+					<td>Body Composition</td>
+					<td>{{athlete.body_composition}}</td>
+				</tr>
+				<tr>
+					<td>Overall</td>
+					<td>{{athlete.overall}}</td>
+				</tr>
+			</tbody>
+ 		</table>
+		{{> charts}}
+	{{else}}
+		<p>Loading...</p>
+	{{/if}}
+</template>

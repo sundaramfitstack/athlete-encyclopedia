@@ -1,0 +1,14 @@
+{
+  "name": "athlete-encyclopedia",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "bcrypt": "^1.0.3",
+    "chart": "^0.1.2",
+    "chart.js": "^2.7.0",
+    "meteor-node-stubs": "~0.2.4"
+  }
+}

@@ -1,0 +1,53 @@
+[
+	{
+		'first_name' : 'Von',
+		'last_name' 'Miller',
+		'team' : {
+			'name' : 'Broncos',
+			'logo_file_path' : 'logos/broncos.png'
+		},
+		'position' : 'LOLB',
+		scores : {
+			'Overall' : 99,
+			'AWR' : 92,
+			'SPD' : 87,
+			'ACC' : 90,
+			'AGI' : 89,
+			'STR' : 84
+		}
+	},
+	{
+		'first_name' : 'Von',
+		'last_name' 'Miller',
+		'team' : {
+			'name' : 'Broncos',
+			'logo_file_path' : 'logos/broncos.png'
+		},
+		'position' : 'LOLB',
+		scores : {
+			'Overall' : 99,
+			'AWR' : 92,
+			'SPD' : 87,
+			'ACC' : 90,
+			'AGI' : 89,
+			'STR' : 84
+		}
+	},
+	{
+		'first_name' : 'Von',
+		'last_name' 'Miller',
+		'team' : {
+			'name' : 'Broncos',
+			'logo_file_path' : 'logos/broncos.png'
+		},
+		'position' : 'LOLB',
+		scores : {
+			'Overall' : 99,
+			'AWR' : 92,
+			'SPD' : 87,
+			'ACC' : 90,
+			'AGI' : 89,
+			'STR' : 84
+		}
+	}
+]

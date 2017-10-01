@@ -1,0 +1,11 @@
+<template name="AthleteSummary">
+	<article class="athlete">
+		{{# if Template.subscriptionsReady}}
+			<h3>{{first_name}} {{last_name}}</h3>			
+			<p>Overall Score: {{overall}}</p>
+			<a href="/athlete/{{athlete_id}}">View Details</a>
+		{{else}}
+			<p>Loading....</p>
+		{{/if}}
+	</article>
+</template>
